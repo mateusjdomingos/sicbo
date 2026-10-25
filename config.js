@@ -1,7 +1,7 @@
 // Cole aqui a configuração do seu projeto Firebase
 // (Firebase > Definições do projeto > As suas apps > Configuração do SDK > "Config").
 window.SICBO_CONFIG = {
-  nome: "O nome do jogo",
+  nome: "FIXE PA BO",
   firebase: {
     apiKey: "AIzaSyBJfLdGFYr-LFaHh8WCpEjZQ_EUjDRAp8I",
     authDomain: "sicbo-decf3.firebaseapp.com",
