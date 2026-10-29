@@ -381,9 +381,37 @@ header .hleft h1{font-size:clamp(22px,6vw,30px)}
 .rv-table{font-size:14px;letter-spacing:.06em;text-transform:uppercase}
 @media (prefers-reduced-motion:reduce){.rv-num{transition:none}}
 
+/* ===== Estatísticas ===== */
+.hero{border:2px solid var(--gold);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:2px;background:var(--felt-deep)}
+.hero-v{font-family:var(--display);font-weight:900;font-size:clamp(36px,10vw,52px);line-height:1.05}
+.st-l{font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.stiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stile{border:1px solid rgba(244,236,210,.35);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;background:var(--felt-deep)}
+.st-v{font-family:var(--display);font-size:24px;line-height:1.15}
+.split{display:flex;gap:2px;height:14px;border-radius:7px;overflow:hidden;background:var(--felt-deep)}
+.split .sp-a{background:var(--ink)}.split .sp-b{background:var(--gold)}
+.split-l{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:15px;color:var(--muted)}
+.split-l .sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.split-l .sw.a{background:var(--ink)}.split-l .sw.b{background:var(--gold)}
+.stgrid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.scard{border:1px solid rgba(244,236,210,.35);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px;background:var(--felt-deep)}
+.sc-h{display:flex;align-items:center;gap:12px}
+.pbar{display:flex;flex-direction:column;gap:3px}
+.pb-h{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:15px}
+.pb-h .die.sm{width:22px;height:22px;padding:3px;gap:1px}
+.pb-track{position:relative;height:10px;border-radius:5px;background:rgba(244,236,210,.12)}
+.pb-fill{position:absolute;left:0;top:0;bottom:0;border-radius:5px;background:var(--gold)}
+.pb-theo{position:absolute;top:-3px;bottom:-3px;width:2px;margin-left:-1px;background:var(--ink);border-radius:1px;box-shadow:0 0 0 1px var(--felt-deep)}
+.mini-h{margin:6px 0 0;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.streaks{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:15px}
+.streaks b{color:var(--gold)}
+.hotcold{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.hotcold .note:first-child{min-width:96px}
+.ustats tr.me-row td{background:rgba(232,196,106,.12)}
+
 </style>
-<script src="config.js?v=3"></script>
-<script type="module" src="app.js?v=3"></script>
+<script src="config.js?v=4"></script>
+<script type="module" src="app.js?v=4"></script>
 </head>
 <body>
 <div class="wrap" id="app"></div>
